@@ -12,7 +12,7 @@ using TMPro;
 
 namespace SuzerainAltTFix
 {
-    [BepInPlugin("com.asciihorse.suzerainmod.2500plus", "Suzerain IL2CPP (2500+ characters, but Alt+T not working properly)", "1.0.1 experimental-1")]
+    [BepInPlugin("com.asciihorse.suzerainmod.2500plus", "Suzerain IL2CPP (2500+ characters, but Alt+T not working properly)", "1.0.1")]
     public class Plugin : BasePlugin
     {
         public static readonly ConcurrentDictionary<int, string> OriginalEnglishStore = new ConcurrentDictionary<int, string>();
